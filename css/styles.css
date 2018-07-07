@@ -147,7 +147,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px auto;
   min-height: 380px;
-  padding: 0 8% 7%;
+  padding: 8% 7%;
   text-align: left;
   width: 82%;
 }
@@ -184,6 +184,26 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+/*Restaurant Listing for Screens greater than 850px wide*/
+@media (min-width: 768px) {
+#restaurants-list {
+    background-color: #f3f3f3;
+    list-style: outside none none;
+    padding: 30px 15px 60px;
+    text-align: center;
+}
+#restaurants-list li {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-family: Arial,sans-serif;
+    margin: 2%;
+    min-height: 380px;
+    padding: 2% 2%;
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+}
 }
 
 /* ====================== Restaurant Details ====================== */
